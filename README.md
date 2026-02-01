@@ -7,6 +7,8 @@ A modern, responsive website for nBooks - Accounting solutions for SMEs and free
 ```
 nbooks_website/
 ├── index.html              # Main HTML file
+├── privacy.html            # Privacy policy page
+├── terms.html              # Terms of service page
 ├── css/
 │   ├── main.css            # Main stylesheet
 │   └── responsive.css      # Responsive design styles
@@ -15,8 +17,13 @@ nbooks_website/
 ├── locales/
 │   ├── pt.json             # Portuguese translations
 │   └── en.json             # English translations
-├── images/                 # Image assets folder
-└── README.md              # This file
+├── images/
+│   ├── nbooks_logo.png     # Header logo
+│   └── nbooks_icon.png     # Favicon
+├── videos/
+│   ├── why_pt.mp4          # Hero video (Portuguese)
+│   └── why_en.mp4          # Hero video (English)
+└── README.md               # This file
 ```
 
 ## Features
