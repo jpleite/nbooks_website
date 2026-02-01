@@ -103,12 +103,6 @@ Use dot notation in HTML: `data-i18n="nav.home"`
 - Lazy loading for animations
 - Compressed and optimized assets
 
-## Contact
-
-For questions about this website or nBooks services:
-- Email: info@nbooks.pt
-- Location: Porto, Portugal
-
 ## License
 
 © 2024 nBooks, Lda. All rights reserved.
