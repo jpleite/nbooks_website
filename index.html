@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nBooks - Streamline Accounting | Porto</title>
+    <meta name="description" content="nBooks - Streamline accounting solutions. Professional accounting, tax consulting and auditing services in Porto.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <img src="https://www.nbooks.pt/images/logo3d.png" alt="nBooks Logo">
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-i18n="nav.home">Início</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav.services">Serviços</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav.about">Sobre</a></li>
+                <li><a href="#contact" class="cta-button" data-i18n="nav.cta">Contacto</a></li>
+                <li>
+                    <div class="language-selector" id="langSelector">
+                        <span class="lang-code" id="currentLang">PT</span>
+                        <div class="lang-dropdown">
+                            <div class="lang-option" data-lang="pt">
+                                <span>Português</span>
+                            </div>
+                            <div class="lang-option" data-lang="en">
+                                <span>English</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Video Section -->
+    <section class="hero-video" id="home">
+        <video id="heroVideo" autoplay muted loop playsinline>
+            <source src="videos/why_pt.mp4" type="video/mp4" id="videoSource">
+            Your browser does not support the video tag.
+        </video>
+        <a href="#hero-content" class="scroll-arrow" aria-label="Scroll down">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Hero Content Section -->
+    <section class="hero-content-section" id="hero-content">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 data-i18n="hero.title">Soluções Contabilísticas para <span class="highlight">PMEs</span> e <span class="highlight">Profissionais Independentes</span></h1>
+                <p data-i18n="hero.subtitle">Simplificamos a sua contabilidade para que se possa concentrar no crescimento do seu negócio.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary" data-i18n="hero.btn1">Comece Agora</a>
+                    <a href="#services" class="btn-secondary" data-i18n="hero.btn2">Os Nossos Serviços</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-container">
+                    <div class="visual-element"></div>
+                    <div class="visual-element"></div>
+                    <div class="visual-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title" data-i18n="services.title">Como Podemos <span>Ajudar</span></h2>
+            <p class="section-subtitle" data-i18n="services.subtitle">Serviços completos de contabilidade adaptados às suas necessidades</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card animate-on-scroll">
+                <div class="service-number">01</div>
+                <h3 class="service-title" data-i18n="service1.title">Contabilidade</h3>
+                <p class="service-description" data-i18n="service1.desc">Mantenha seus registros financeiros precisos e atualizados</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-number">02</div>
+                <h3 class="service-title" data-i18n="service2.title">Preparação de Impostos</h3>
+                <p class="service-description" data-i18n="service2.desc">Garanta conformidade e maximize deduções</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-number">03</div>
+                <h3 class="service-title" data-i18n="service3.title">Relatórios Financeiros</h3>
+                <p class="service-description" data-i18n="service3.desc">Obtenha insights sobre o desempenho do seu negócio</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-number">04</div>
+                <h3 class="service-title" data-i18n="service4.title">Processamento Salarial</h3>
+                <p class="service-description" data-i18n="service4.desc">Simplifique o processamento assegurando a conformidade</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header animate-on-scroll">
+            <h2 class="section-title" data-i18n="about.title">Sobre a <span>nBooks</span></h2>
+            <p class="section-subtitle" data-i18n="about.subtitle">Seu parceiro de confiança em contabilidade</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text animate-on-scroll">
+                <h2 data-i18n="about.heading">Transformando a <span>Contabilidade</span> em Portugal</h2>
+                <p data-i18n="about.p1">A nBooks é uma empresa moderna de contabilidade focada em fornecer soluções eficientes e personalizadas para PMEs e profissionais independentes.</p>
+                <p data-i18n="about.p2">Com sede no Porto, combinamos expertise local com tecnologia avançada para oferecer serviços que vão além dos números, ajudando nossos clientes a tomar decisões informadas e estratégicas.</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-check"></div>
+                        <span data-i18n="about.feat1">Equipa certificada pela OCC</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-check"></div>
+                        <span data-i18n="about.feat2">Tecnologia cloud segura</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-check"></div>
+                        <span data-i18n="about.feat3">Resposta em 24 horas</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-check"></div>
+                        <span data-i18n="about.feat4">Preços transparentes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-container animate-on-scroll">
+                <div class="stat-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" data-i18n="stats.stat1.label">Digital</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">24h</div>
+                    <div class="stat-label" data-i18n="stats.stat2.label">Resposta</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label" data-i18n="stats.stat3.label">Satisfação</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">2024</div>
+                    <div class="stat-label" data-i18n="stats.stat4.label">Fundação</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container-centered">
+            <div class="contact-info animate-on-scroll">
+                <h2 data-i18n="contact.title">Pronto para Simplificar sua Contabilidade?</h2>
+                <p data-i18n="contact.subtitle">Envie-nos um email ou WhatsApp para obter mais informações sobre como podemos ajudar seu negócio.</p>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="contact.location">Localização</span>
+                        <span class="contact-value" data-i18n="contact.locationValue">Porto, Portugal</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="contact.email">Email</span>
+                        <a href="mailto:info@nbooks.pt" class="contact-value contact-link">info@nbooks.pt</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="contact.phone">Telefone</span>
+                        <a href="tel:+351915246039" class="contact-value contact-link">+351 915 246 039</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">WhatsApp</span>
+                        <a href="https://wa.me/351915246039" target="_blank" rel="noopener noreferrer" class="contact-value contact-link" data-i18n="contact.whatsappText">Enviar mensagem</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label" data-i18n="contact.hours">Horário</span>
+                        <span class="contact-value" data-i18n="contact.hoursValue">Segunda a Sexta: 9:00 - 18:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-about">
+                <p data-i18n="footer.desc">Transformamos a complexidade contábil em soluções simples e eficazes para o crescimento sustentável do seu negócio.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/351915246039" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:info@nbooks.pt" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.services">Serviços</h3>
+                <ul>
+                    <li><a href="#services" data-i18n="service1.title">Contabilidade</a></li>
+                    <li><a href="#services" data-i18n="service2.title">Preparação de Impostos</a></li>
+                    <li><a href="#services" data-i18n="service3.title">Relatórios Financeiros</a></li>
+                    <li><a href="#services" data-i18n="service4.title">Processamento Salarial</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.company">Empresa</h3>
+                <ul>
+                    <li><a href="#about" data-i18n="footer.aboutus">Sobre Nós</a></li>
+                    <li><a href="#contact" data-i18n="footer.contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <ul>
+                    <li><a href="terms.html" data-i18n="footer.terms">Termos de Serviço</a></li>
+                    <li><a href="privacy.html" data-i18n="footer.privacy">Política de Proteção de Dados</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 nBooks, Lda. <span data-i18n="footer.rights">Todos os direitos reservados.</span> | NIF: 517827131</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+</html>

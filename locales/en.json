@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "cta": "Contact"
+  },
+  "hero": {
+    "title": "Accounting Solutions for <span class=\"highlight\">SMEs</span> and <span class=\"highlight\">Freelancers</span>",
+    "subtitle": "We simplify your accounting so you can focus on growing your business.",
+    "btn1": "Get Started",
+    "btn2": "Our Services"
+  },
+  "services": {
+    "title": "How We Can <span>Help</span>",
+    "subtitle": "Comprehensive accounting services tailored to your needs"
+  },
+  "service1": {
+    "title": "Accounting",
+    "desc": "Keep your financial records accurate and up-to-date"
+  },
+  "service2": {
+    "title": "Tax Filing",
+    "desc": "Ensure compliance and maximize deductions"
+  },
+  "service3": {
+    "title": "Financial Reporting",
+    "desc": "Obtain insights into your business performance"
+  },
+  "service4": {
+    "title": "Payroll Processing",
+    "desc": "Simplify payroll processing while ensuring compliance"
+  },
+  "about": {
+    "title": "About <span>nBooks</span>",
+    "subtitle": "Your trusted accounting partner",
+    "heading": "Transforming <span>Accounting</span> in Portugal",
+    "p1": "nBooks is a modern accounting firm focused on providing efficient and personalized solutions for SMEs and freelancers.",
+    "p2": "Based in Porto, we combine local expertise with advanced technology to offer services that go beyond numbers, helping our clients make informed and strategic decisions.",
+    "feat1": "OCC certified team",
+    "feat2": "Secure cloud technology",
+    "feat3": "24-hour response",
+    "feat4": "Transparent pricing"
+  },
+  "stats": {
+    "stat1": {
+      "label": "Digital"
+    },
+    "stat2": {
+      "label": "Response"
+    },
+    "stat3": {
+      "label": "Satisfaction"
+    },
+    "stat4": {
+      "label": "Founded"
+    }
+  },
+  "contact": {
+    "title": "Ready to Simplify Your Accounting?",
+    "subtitle": "Send us an email or WhatsApp for more information on how we can help your business.",
+    "location": "Location",
+    "locationValue": "Porto, Portugal",
+    "email": "Email",
+    "emailValue": "info@nbooks.pt",
+    "phone": "Phone",
+    "phoneValue": "+351 915 246 039",
+    "whatsappText": "Send message",
+    "hours": "Office Hours",
+    "hoursValue": "Monday to Friday: 9:00 AM - 6:00 PM"
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send Message"
+  },
+  "footer": {
+    "desc": "We transform accounting complexity into simple and effective solutions for sustainable business growth.",
+    "services": "Services",
+    "company": "Company",
+    "aboutus": "About Us",
+    "contact": "Contact",
+    "portal": "Client Portal",
+    "careers": "Careers",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Data Protection Policy",
+    "gdpr": "GDPR",
+    "certifications": "Certifications",
+    "rights": "All rights reserved."
+  },
+  "policy": {
+    "back": "Back"
+  },
+  "messages": {
+    "formSuccess": "Thank you for your contact! We will respond within 24 hours.",
+    "formError": "Please fill in all required fields."
+  }
+}

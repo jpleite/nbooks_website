@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "cta": "Contacto"
+  },
+  "hero": {
+    "title": "Soluções Contabilísticas para <span class=\"highlight\">PMEs</span> e <span class=\"highlight\">Profissionais Independentes</span>",
+    "subtitle": "Simplificamos a sua contabilidade para que se possa concentrar no crescimento do seu negócio.",
+    "btn1": "Comece Agora",
+    "btn2": "Os Nossos Serviços"
+  },
+  "services": {
+    "title": "Como Podemos <span>Ajudar</span>",
+    "subtitle": "Serviços completos de contabilidade adaptados às suas necessidades"
+  },
+  "service1": {
+    "title": "Contabilidade",
+    "desc": "Mantenha seus registros financeiros precisos e atualizados"
+  },
+  "service2": {
+    "title": "Preparação de Impostos",
+    "desc": "Garanta conformidade e maximize deduções"
+  },
+  "service3": {
+    "title": "Relatórios Financeiros",
+    "desc": "Obtenha insights sobre o desempenho do seu negócio"
+  },
+  "service4": {
+    "title": "Processamento Salarial",
+    "desc": "Simplifique o processamento assegurando a conformidade"
+  },
+  "about": {
+    "title": "Sobre a <span>nBooks</span>",
+    "subtitle": "Seu parceiro de confiança em contabilidade",
+    "heading": "Transformando a <span>Contabilidade</span> em Portugal",
+    "p1": "A nBooks é uma empresa moderna de contabilidade focada em fornecer soluções eficientes e personalizadas para PMEs e profissionais independentes.",
+    "p2": "Com sede no Porto, combinamos expertise local com tecnologia avançada para oferecer serviços que vão além dos números, ajudando nossos clientes a tomar decisões informadas e estratégicas.",
+    "feat1": "Equipa certificada pela OCC",
+    "feat2": "Tecnologia cloud segura",
+    "feat3": "Resposta em 24 horas",
+    "feat4": "Preços transparentes"
+  },
+  "stats": {
+    "stat1": {
+      "label": "Digital"
+    },
+    "stat2": {
+      "label": "Resposta"
+    },
+    "stat3": {
+      "label": "Satisfação"
+    },
+    "stat4": {
+      "label": "Fundação"
+    }
+  },
+  "contact": {
+    "title": "Pronto para Simplificar sua Contabilidade?",
+    "subtitle": "Envie-nos um email ou WhatsApp para obter mais informações sobre como podemos ajudar seu negócio.",
+    "location": "Localização",
+    "locationValue": "Porto, Portugal",
+    "email": "Email",
+    "emailValue": "info@nbooks.pt",
+    "phone": "Telefone",
+    "phoneValue": "+351 915 246 039",
+    "whatsappText": "Enviar mensagem",
+    "hours": "Horário",
+    "hoursValue": "Segunda a Sexta: 9:00 - 18:00"
+  },
+  "form": {
+    "name": "Nome Completo",
+    "email": "Email",
+    "phone": "Telefone",
+    "message": "Mensagem",
+    "submit": "Enviar Mensagem"
+  },
+  "footer": {
+    "desc": "Transformamos a complexidade contábil em soluções simples e eficazes para o crescimento sustentável do seu negócio.",
+    "services": "Serviços",
+    "company": "Empresa",
+    "aboutus": "Sobre Nós",
+    "contact": "Contacto",
+    "portal": "Portal Cliente",
+    "careers": "Carreiras",
+    "legal": "Legal",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Proteção de Dados",
+    "gdpr": "RGPD",
+    "certifications": "Certificações",
+    "rights": "Todos os direitos reservados."
+  },
+  "policy": {
+    "back": "Voltar"
+  },
+  "messages": {
+    "formSuccess": "Obrigado pelo seu contacto! Responderemos dentro de 24 horas.",
+    "formError": "Por favor preencha todos os campos obrigatórios."
+  }
+}
