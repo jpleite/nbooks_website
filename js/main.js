@@ -2,12 +2,12 @@
 
 // Global variables
 let translations = {};
-let currentLanguage = 'pt';
+let currentLanguage = 'en';
 
-// Language detection
+// Language detection - defaults to English if not Portuguese
 function detectBrowserLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
-    return browserLang.startsWith('en') ? 'en' : 'pt';
+    return browserLang.startsWith('pt') ? 'pt' : 'en';
 }
 
 // Load translations from JSON
