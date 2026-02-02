@@ -112,5 +112,4 @@ Use dot notation in HTML: `data-i18n="nav.home"`
 
 ## License
 
-© 2024 nBooks, Lda. All rights reserved.
-NIF: 517827131
+© 2026 nBooks, Lda. All rights reserved.
